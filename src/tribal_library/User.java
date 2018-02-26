@@ -1,6 +1,6 @@
 package tribal_library;
 
-public class User {
+public abstract class User {
 	private String password;
 	private String userID;
 }

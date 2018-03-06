@@ -5,6 +5,9 @@ private String author;
 private int year;
 private int ID;
 
+Book() {
+    }        
+        
 Book(String title, String author, String year, int ID) {
         this.title = title;
         this.author = author;

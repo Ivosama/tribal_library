@@ -6,6 +6,7 @@ public class Client extends User{
 	private String phoneNo;
 	
 	Client(){
+		super();
 	}
 	
 	Client(String name, String address, String phoneNo){

@@ -4,6 +4,14 @@ import java.util.Date;
 public class Notification {
 	public Date dateSent;
 	
+	Notification(){
+		
+	}
+	
+	Notification(String Warning){
+		
+	}
+	
 	public void setNotificationDelay() {
 		
 	}
@@ -20,7 +28,5 @@ public class Notification {
 		this.dateSent = dateSent;
 	}
 
-	Notification(){
-		
-	}
+	
 }

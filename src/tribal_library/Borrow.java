@@ -11,6 +11,14 @@ public class Borrow {
 	public Date endDate;
 	public Notification notification;
 	
+	Borrow(){
+		
+	}
+	
+	Borrow(Book book){
+		startDate = new Date();
+	}
+	
 	public Book searchBook() {
 		return book;
 				
